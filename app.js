@@ -9,9 +9,6 @@ const { port } = require('./config')
 const http = require('http')
 const server = http.createServer(app)
 
-
-
-
 const { expressLoader, mysqlLoader } = require('./loaders')
 
 //express loader
